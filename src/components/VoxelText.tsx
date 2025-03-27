@@ -18,7 +18,7 @@ export const VoxelText = ({
 	const groupRef = useRef<Group>(null);
 	const meshRef = useRef<Mesh>(null);
 
-	const font = useLoader(FontLoader, "/fonts/Orbitron_Bold.json");
+	const font = useLoader(FontLoader, "/ltfi/fonts/Orbitron_Bold.json");
 
 	const geometry = useMemo(() => {
 		const textGeometry = new TextGeometry(text, {

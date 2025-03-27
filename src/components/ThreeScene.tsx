@@ -1,7 +1,5 @@
 import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
 import { VoxelText } from "./VoxelText";
-import * as THREE from "three";
 
 interface ThreeSceneProps {
 	text?: string;
